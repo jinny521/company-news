@@ -96,7 +96,7 @@ namespace CompanyNews
                       };
 
                     // APPCENTER
-                    // Crashes.TrackError(ex, properties);
+                     Crashes.TrackError(ex, properties);
                     return;
                 }
             }
