@@ -70,7 +70,7 @@ namespace CompanyNews
                       };
 
             // APPCENTER
-            // Analytics.TrackEvent("News Item Selected", properties);
+             Analytics.TrackEvent("News Item Selected", properties);
         }
 
         void OnListViewItemTapped(object sender, ItemTappedEventArgs e)
